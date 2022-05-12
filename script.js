@@ -65,5 +65,7 @@ const ti = player =>{
         } else {
             alert("The winner is the player 2");
         }
+    } else if(counter == 9){
+        alert("It's a TIE");
     }
 }
